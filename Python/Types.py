@@ -5,6 +5,15 @@
 # float ka ander zyada data store hta hain  ka ya decemail values hoti hain point mai (ponit(.) exttra information ko dekhata hain)
 
 # 1) Type Conversion (automatically type convert kerta hain python )
+"""Type conversion occurs when one variable is converted into another variable type. For example, converting an integer type to a float type requires type conversion.
+
+Two Types of Conversion:
+Type Conversion – Python automatically converts one data type to another.
+Type Casting – Manually (forcefully) converting one data type to another.
+A float type can store more data because it includes decimal values. The point (.) represents extra information in floating-point numbers.
+
+1) Type Conversion
+Python automatically converts data types as needed."""
 a = 40 #integer
 b = 30.5 #float
 
@@ -17,6 +26,9 @@ print(sum)
 
 # 2) Type Casting (manually (zabardasti) type convert kerna)
 # valid number hoga tab hi type casting work kary gi
+"""A string cannot be converted into a floating value, as Python will give an error because a string remains a string.
+2) Type Casting (manually forcing type conversion)
+Type casting will only work if the value is a valid number."""
 a = int("6")
 b= 5.25
 
